@@ -8,8 +8,10 @@ export default function App() {
     <div className="min-h-screen overflow-x-hidden bg-[#1A1F29]">
       <div className="max-w-[1440px] mx-auto relative">
         <Lazymake />
-        <QuickStartSection />
-        <DocumentationSection />
+      </div>
+      <QuickStartSection />
+      <DocumentationSection />
+      <div className="max-w-[1440px] mx-auto relative">
         <Footer />
       </div>
     </div>

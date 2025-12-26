@@ -28,7 +28,7 @@ function Group16() {
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[5035px] w-[298px] group-hover/varInspector:border-[#4B9AE9] transition-colors" />
       <Variable />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5125px] w-[210px] group-hover/varInspector:text-[#4B9AE9] transition-colors">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5125px] w-[210px] group-hover/varInspector:text-[#4B9AE9] transition-colors">
         Variable
         <br aria-hidden="true" />
         Inspector
@@ -58,7 +58,7 @@ function Group10() {
       className="group/depGraph absolute contents left-[260px] top-[5035px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[5035px] w-[298px] group-hover/depGraph:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-nowrap text-white top-[5125px] group-hover/depGraph:text-[#4B9AE9] transition-colors">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-nowrap text-white top-[5125px] group-hover/depGraph:text-[#4B9AE9] transition-colors">
         Dependency
         <br aria-hidden="true" />
         Graphs
@@ -89,7 +89,7 @@ function Group11() {
       className="group/safetyFeatures absolute contents left-[260px] top-[5211px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[5211px] w-[298px] group-hover/safetyFeatures:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/safetyFeatures:text-[#4B9AE9] transition-colors">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/safetyFeatures:text-[#4B9AE9] transition-colors">
         Safety
         <br aria-hidden="true" />
         Features
@@ -120,7 +120,7 @@ function Group15() {
       className="group/syntaxHL absolute contents left-[882px] top-[5035px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[882px] rounded-[8px] top-[5035px] w-[298px] group-hover/syntaxHL:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[5125px] w-[210px] group-hover/syntaxHL:text-[#4B9AE9] transition-colors">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[5125px] w-[210px] group-hover/syntaxHL:text-[#4B9AE9] transition-colors">
         Syntax
         <br aria-hidden="true" />
         Highlighting
@@ -151,7 +151,7 @@ function Group17() {
       className="group/historySearch absolute contents left-[571px] top-[5211px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[5211px] w-[298px] group-hover/historySearch:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/historySearch:text-[#4B9AE9] transition-colors">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/historySearch:text-[#4B9AE9] transition-colors">
         History
         <br aria-hidden="true" />
         {`& Search`}
@@ -182,7 +182,7 @@ function Group12() {
       className="group/performanceProfiling absolute contents left-[260px] top-[5387px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[5387px] w-[298px] group-hover/performanceProfiling:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[5477px] w-[210px] group-hover/performanceProfiling:text-[#4B9AE9] transition-colors">Performance Profiling</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[5477px] w-[210px] group-hover/performanceProfiling:text-[#4B9AE9] transition-colors">Performance Profiling</p>
       <Speedometer />
     </a>
   );
@@ -209,7 +209,7 @@ function Group13() {
       className="group/exportShell absolute contents left-[571px] top-[5387px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[5387px] w-[298px] group-hover/exportShell:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5477px] w-[210px] group-hover/exportShell:text-[#4B9AE9] transition-colors">{`Export & Shell Integration`}</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[5477px] w-[210px] group-hover/exportShell:text-[#4B9AE9] transition-colors">{`Export & Shell Integration`}</p>
       <Terminal />
     </a>
   );
@@ -236,7 +236,7 @@ function Group14() {
       className="group/workspaceManagement absolute contents left-[882px] top-[5211px]"
     >
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[882px] rounded-[8px] top-[5211px] w-[298px] group-hover/workspaceManagement:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/workspaceManagement:text-[#4B9AE9] transition-colors">Workspace Management</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[5301px] w-[210px] group-hover/workspaceManagement:text-[#4B9AE9] transition-colors">Workspace Management</p>
       <Container />
     </a>
   );
@@ -264,7 +264,7 @@ function Group9() {
       className="group/selfDoc absolute contents left-[260px] top-[4797px]"
     >
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[226px] left-[260px] rounded-[8px] top-[4797px] w-[298px] group-hover/selfDoc:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[4949px] w-[210px] group-hover/selfDoc:text-[#4B9AE9] transition-colors">Self-Documenting Makefiles</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[4949px] w-[210px] group-hover/selfDoc:text-[#4B9AE9] transition-colors">Self-Documenting Makefiles</p>
       <FileCode />
     </a>
   );
@@ -292,7 +292,7 @@ function Group8() {
       className="group/keyboard absolute contents left-[571px] top-[4797px]"
     >
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[226px] left-[571px] rounded-[8px] top-[4797px] w-[298px] group-hover/keyboard:border-[#4B9AE9] transition-colors" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[4949px] w-[210px] group-hover/keyboard:text-[#4B9AE9] transition-colors">Keyboard Shortcuts Reference</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[4949px] w-[210px] group-hover/keyboard:text-[#4B9AE9] transition-colors">Keyboard Shortcuts Reference</p>
       <Command />
     </a>
   );
@@ -301,7 +301,7 @@ function Group8() {
 function Frame4() {
   return (
     <div className="absolute content-stretch flex flex-col items-start left-[906px] top-[4949px] w-[210px]">
-      <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[18px] text-white w-full group-hover/config:text-[#4B9AE9] transition-colors">
+      <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] not-italic relative shrink-0 text-[18px] text-white w-full group-hover/config:text-[#4B9AE9] transition-colors">
         Configuration
         <br aria-hidden="true" />
         Guide
@@ -348,7 +348,7 @@ function Group7() {
 
 function LinkExternal7() {
   return (
-    <div className="absolute left-[553px] size-[18px] top-[2048px]" data-name="link-external-01">
+    <div className="absolute left-[565px] size-[18px] top-[2048px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link7:stroke-[#58A6FF] transition-colors" />
@@ -360,7 +360,7 @@ function LinkExternal7() {
 
 function LinkExternal() {
   return (
-    <div className="absolute left-[440px] size-[18px] top-[2544px]" data-name="link-external-01">
+    <div className="absolute left-[452px] size-[18px] top-[2544px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link8:stroke-[#58A6FF] transition-colors" />
@@ -372,7 +372,7 @@ function LinkExternal() {
 
 function LinkExternal1() {
   return (
-    <div className="absolute left-[538px] size-[18px] top-[3046px]" data-name="link-external-01">
+    <div className="absolute left-[550px] size-[18px] top-[3046px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link5:stroke-[#58A6FF] transition-colors" />
@@ -384,7 +384,7 @@ function LinkExternal1() {
 
 function LinkExternal2() {
   return (
-    <div className="absolute left-[459px] size-[18px] top-[3519px]" data-name="link-external-01">
+    <div className="absolute left-[471px] size-[18px] top-[3519px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link7:stroke-[#58A6FF] transition-colors" />
@@ -396,7 +396,7 @@ function LinkExternal2() {
 
 function LinkExternal3() {
   return (
-    <div className="absolute left-[921px] size-[18px] top-[2048px]" data-name="link-external-01">
+    <div className="absolute left-[933px] size-[18px] top-[2048px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link3:stroke-[#58A6FF] transition-colors" />
@@ -408,7 +408,7 @@ function LinkExternal3() {
 
 function LinkExternal4() {
   return (
-    <div className="absolute left-[1039px] size-[18px] top-[2544px]" data-name="link-external-01">
+    <div className="absolute left-[1051px] size-[18px] top-[2544px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link4:stroke-[#58A6FF] transition-colors" />
@@ -420,7 +420,7 @@ function LinkExternal4() {
 
 function LinkExternal5() {
   return (
-    <div className="absolute left-[978px] size-[18px] top-[3046px]" data-name="link-external-01">
+    <div className="absolute left-[990px] size-[18px] top-[3046px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link6:stroke-[#58A6FF] transition-colors" />
@@ -432,7 +432,7 @@ function LinkExternal5() {
 
 function LinkExternal6() {
   return (
-    <div className="absolute left-[983px] size-[18px] top-[3519px]" data-name="link-external-01">
+    <div className="absolute left-[995px] size-[18px] top-[3519px]" data-name="link-external-01">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
         <g id="link-external-01">
           <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link9:stroke-[#58A6FF] transition-colors" />
@@ -453,12 +453,12 @@ function Group21() {
 function Group24() {
   return (
     <div className="absolute contents left-[784px] top-[2390px]">
-      <div className="absolute h-[8px] left-[784px] top-[2393px] w-[3.088px]" data-name="Vector">
+      <div className="absolute h-[8px] left-[784px] top-[2395px] w-[3.088px]" data-name="Vector">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
           <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #8B9199)" fillRule="evenodd" id="Vector" />
         </svg>
       </div>
-      <p className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[794px] text-[#8b939e] text-[12px] text-nowrap top-[2390px] tracking-[-0.24px]">Press ‘v’ to view all variables</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] italic leading-[normal] left-[794px] text-[#8b939e] text-[12px] text-nowrap top-[2390px] tracking-[-0.24px]">Press ‘v’ to view all variables</p>
     </div>
   );
 }
@@ -466,12 +466,12 @@ function Group24() {
 function Group25() {
   return (
     <div className="absolute contents left-[784px] top-[2241px]">
-      <div className="absolute h-[8px] left-[784px] top-[2244px] w-[3.088px]" data-name="Vector">
+      <div className="absolute h-[8px] left-[784px] top-[2246px] w-[3.088px]" data-name="Vector">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
           <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #8B9199)" fillRule="evenodd" id="Vector" />
         </svg>
       </div>
-      <p className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[794px] text-[#8b939e] text-[12px] text-nowrap top-[2241px] tracking-[-0.24px]">Press ‘g’ to view dependency graph</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] italic leading-[normal] left-[794px] text-[#8b939e] text-[12px] text-nowrap top-[2241px] tracking-[-0.24px]">Press ‘g’ to view dependency graph</p>
     </div>
   );
 }
@@ -489,8 +489,8 @@ function Group22() {
       </div>
       <Group24 />
       <Group25 />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2299px] tracking-[-0.24px]">Variables Used</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[2327px] tracking-[-0.24px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2299px] tracking-[-0.24px]">Variables Used</p>
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[2327px] tracking-[-0.24px]">
         <p className="mb-0">VERSION = 1.0.0</p>
         <p className="mb-0">BUILD_DIR = ./dist</p>
         <p>DOCKER_REGISTRY = registry.example.com</p>
@@ -508,7 +508,7 @@ function Frame5() {
   return (
     <div className="absolute bg-[#1f2430] content-stretch flex flex-col items-center justify-center left-[661px] px-[6px] py-0 rounded-[4px] top-[2128px]">
       <div aria-hidden="true" className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[4px]" />
-      <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#58a6ff] text-[14px] w-full">g</p>
+      <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[24px] not-italic relative shrink-0 text-[#58a6ff] text-[14px] w-full">g</p>
     </div>
   );
 }
@@ -517,8 +517,8 @@ function Group23() {
   return (
     <div className="absolute contents left-[261px] top-[2704px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[234px] left-[261px] rounded-[8px] top-[2704px] w-[372px]" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[293px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2794px] tracking-[-0.24px]">Recipe:</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[0] left-[293px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2822px] tracking-[-0.24px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[293px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2794px] tracking-[-0.24px]">Recipe:</p>
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[0] left-[293px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2822px] tracking-[-0.24px]">
         <p className="leading-[normal] mb-0">
           <span className="text-[#c7c5be]">@echo</span> <span className="text-[#ce9178]">{`“==> Building project...”`}</span>
         </p>
@@ -539,7 +539,7 @@ function Group23() {
           <span className="text-[#c7c5be]">@echo</span> <span className="text-[#ce9178]">{`“==> Build complete, tests passed.”`}</span>
         </p>
       </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[293px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2736px] tracking-[-0.24px]">build-and-test</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[293px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2732px] tracking-[-0.24px]">build-and-test</p>
       <div className="absolute h-0 left-[293px] top-[2772px] w-[308px]">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 308 1">
@@ -554,12 +554,12 @@ function Group23() {
 function Group27() {
   return (
     <div className="absolute contents left-[784px] top-[2906px]">
-      <div className="absolute h-[8px] left-[784px] top-[2909px] w-[3.088px]" data-name="Vector">
+      <div className="absolute h-[8px] left-[784px] top-[2911px] w-[3.088px]" data-name="Vector">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
           <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #58A6FF)" fillRule="evenodd" id="Vector" />
         </svg>
       </div>
-      <p className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[794px] text-[#58a6ff] text-[12px] text-nowrap top-[2906px] tracking-[-0.24px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] italic leading-[normal] left-[794px] text-[#58a6ff] text-[12px] text-nowrap top-[2906px] tracking-[-0.24px]">
         Always backup before destructive database
         <br aria-hidden="true" />
         operations. Verify database name (production
@@ -572,24 +572,24 @@ function Group28() {
   return (
     <div className="absolute contents left-[752px] top-[2704px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[234px] left-[752px] rounded-[8px] top-[2704px] w-[372px]" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2794px] tracking-[-0.24px]">Recipe:</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2822px] tracking-[-0.24px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2794px] tracking-[-0.24px]">Recipe:</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2822px] tracking-[-0.24px]">
         <span className="text-[#c7c5be]">psql -c</span> <span className="text-[#ce9178]">‘DROP DATABASE production;”</span>
       </p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[797px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2850px] tracking-[-0.24px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[797px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2850px] tracking-[-0.24px]">
         <p className="mb-0">
-          <span className="font-['Menlo:Bold',sans-serif] not-italic text-[#c7c5be]">critical</span>
+          <span className="font-['Roboto_Mono',sans-serif] font-bold not-italic text-[#c7c5be]">critical</span>
           <span className="text-[#c7c5be]"> </span>database-drop
         </p>
         <p className="mb-0">Drops databases or truncates tables. This</p>
         <p>causes permanent data loss.</p>
       </div>
-      <div className="absolute left-[784px] size-[7px] top-[2854px]">
+      <div className="absolute left-[784px] size-[7px] top-[2856px]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7 7">
           <circle cx="3.5" cy="3.5" fill="var(--fill-0, #F85149)" id="Ellipse 3" r="3.5" />
         </svg>
       </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2736px] tracking-[-0.24px]">nuke-db</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[2732px] tracking-[-0.24px]">nuke-db</p>
       <div className="absolute h-0 left-[784px] top-[2772px] w-[308px]">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 308 1">
@@ -608,15 +608,15 @@ function Group18() {
     <div className="absolute contents left-[260px] top-[3207px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[204px] left-[260px] rounded-[8px] top-[3207px] w-[372px]" />
       <div className="absolute bg-[#58a6ff] h-[28px] left-[281px] top-[3267px] w-px" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[306px] not-italic text-[12px] text-nowrap text-white top-[3239px] tracking-[-0.24px]">build</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3267px] tracking-[-0.24px]">build</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[12px] text-nowrap text-white top-[3309px] tracking-[-0.24px]">clean</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[12px] text-nowrap text-white top-[3351px] tracking-[-0.24px]">snapshot</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3281px] tracking-[-0.24px]">Build the application</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3323px] tracking-[-0.24px]">Clean build artifacts</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3365px] tracking-[-0.24px]">Test release build locally (doesn’t publish)</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[292px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3239px] tracking-[-0.24px]">/</p>
-      <div className="absolute bg-[#8b939e] h-[14px] left-[342px] top-[3239px] w-[7px]" />
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[306px] not-italic text-[12px] text-nowrap text-white top-[3235px] tracking-[-0.24px]">build</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3267px] tracking-[-0.24px]">build</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[12px] text-nowrap text-white top-[3309px] tracking-[-0.24px]">clean</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[12px] text-nowrap text-white top-[3351px] tracking-[-0.24px]">snapshot</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3281px] tracking-[-0.24px]">Build the application</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3323px] tracking-[-0.24px]">Clean build artifacts</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[292px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3365px] tracking-[-0.24px]">Test release build locally (doesn’t publish)</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[292px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3235px] tracking-[-0.24px]">/</p>
+      <div className="absolute bg-[#8b939e] h-[14px] left-[342px] top-[3236px] w-[7px]" />
     </div>
   );
 }
@@ -626,13 +626,13 @@ function Group20() {
     <div className="absolute contents left-[752px] top-[3207px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[204px] left-[752px] rounded-[8px] top-[3207px] w-[372px]" />
       <div className="absolute bg-[#58a6ff] h-[28px] left-[773px] top-[3267px] w-px" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3239px] tracking-[-0.24px]">Switch Workspace</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3267px] tracking-[-0.24px]">./Makefile</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[3309px] tracking-[-0.24px]">./example/highlighting.mk</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[3351px] tracking-[-0.24px]">./example/dangerous.mk</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3281px] tracking-[-0.24px]">Last used: just now • 30 times</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3323px] tracking-[-0.24px]">Last used: 2 hours ago • 3 times</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3365px] tracking-[-0.24px]">Last used: 6 days ago • 2 times</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3235px] tracking-[-0.24px]">Switch Workspace</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[3267px] tracking-[-0.24px]">./Makefile</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[3309px] tracking-[-0.24px]">./example/highlighting.mk</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[12px] text-nowrap text-white top-[3351px] tracking-[-0.24px]">./example/dangerous.mk</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3281px] tracking-[-0.24px]">Last used: just now • 30 times</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3323px] tracking-[-0.24px]">Last used: 2 hours ago • 3 times</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3365px] tracking-[-0.24px]">Last used: 6 days ago • 2 times</p>
     </div>
   );
 }
@@ -640,29 +640,29 @@ function Group20() {
 function Group29() {
   return (
     <div className="absolute contents left-[280px] top-[3711px]">
-      <div className="absolute h-[8px] left-[284px] top-[3854px] w-[3.088px]" data-name="Vector">
+      <div className="absolute h-[8px] left-[284px] top-[3856px] w-[3.088px]" data-name="Vector">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
           <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #8B9199)" fillRule="evenodd" id="Vector" />
         </svg>
       </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[294px] not-italic text-[#cccac3] text-[12px] text-nowrap top-[3711px] tracking-[-0.24px]">Performance Regression</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[301px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3767px] tracking-[-0.24px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[294px] not-italic text-[#cccac3] text-[12px] text-nowrap top-[3707px] tracking-[-0.24px]">Performance Regression</p>
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[301px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3767px] tracking-[-0.24px]">
         <p className="mb-0">Current:</p>
         <p className="mb-0">Average:</p>
         <p>Change:</p>
       </div>
-      <div className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[294px] text-[#8b939e] text-[12px] text-nowrap top-[3851px] tracking-[-0.24px]">
-        <p className="mb-0">This target recently got slower –</p>
-        <p>investigate recent changes</p>
+      <div className="absolute font-['Roboto_Mono',sans-serif] italic leading-[normal] left-[294px] text-[#8b939e] text-[12px] text-nowrap top-[3851px] tracking-[-0.24px]">
+        <p className="mb-0 italic">This target recently got slower –</p>
+        <p className="italic font-normal">investigate recent changes</p>
       </div>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[371px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3767px] tracking-[-0.24px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[371px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[3767px] tracking-[-0.24px]">
         <p className="mb-0">906ms</p>
         <p className="mb-0">720ms (10 runs)</p>
-        <p className="font-['Menlo:Bold',sans-serif] text-[#c99b3e]">+25% slower</p>
+        <p className="font-['Roboto_Mono',sans-serif] font-bold text-[#c99b3e]">+25% slower</p>
       </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[280px] not-italic text-[#c99b3e] text-[12px] text-nowrap top-[3711px] tracking-[-0.24px]">↑</p>
-      <div className="absolute bg-[#c99b3e] h-[14px] left-[455px] top-[3711px] w-[63px]" />
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[462px] not-italic text-[12px] text-black text-nowrap top-[3711px] tracking-[-0.24px]">warning</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[280px] not-italic text-[#c99b3e] text-[12px] text-nowrap top-[3707px] tracking-[-0.24px]">↑</p>
+      <div className="absolute bg-[#c99b3e] h-[14px] left-[455px] top-[3709px] w-[63px]" />
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[462px] not-italic text-[12px] text-black text-nowrap top-[3707px] tracking-[-0.24px]">warning</p>
       <div className="absolute border border-[#31363b] border-solid h-[84px] left-[284px] top-[3746px] w-[210px]" />
     </div>
   );
@@ -680,7 +680,7 @@ function Group19() {
 function ExportDataPreview() {
   return (
     <div className="absolute contents left-[752px] top-[3679px]">
-      <div className="absolute font-['Menlo:Bold',sans-serif] leading-[0] left-[783px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-31px_-32px] mask-size-[372px_223px] not-italic text-[#cccac3] text-[12px] text-nowrap top-[3711px] tracking-[-0.24px]" style={{ maskImage: `url('${imgCacheLazymakeExportsTest20251224JsonCacheLazymakeExportsTest20251224LogTimestamp20251224T143022456ZMakefilePathUsersRsGoSrcGithubComRshelekhovLazymakeMakefileTargetNameTestStartTime20251224T143020123ZEndTime20251224T143022456ZDuration2333000000DurationMs2333SuccessTrueExitCode0}')` }}>
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[0] left-[783px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-31px_-32px] mask-size-[372px_223px] not-italic text-[#cccac3] text-[12px] text-nowrap top-[3707px] tracking-[-0.24px]" style={{ maskImage: `url('${imgCacheLazymakeExportsTest20251224JsonCacheLazymakeExportsTest20251224LogTimestamp20251224T143022456ZMakefilePathUsersRsGoSrcGithubComRshelekhovLazymakeMakefileTargetNameTestStartTime20251224T143020123ZEndTime20251224T143022456ZDuration2333000000DurationMs2333SuccessTrueExitCode0}')` }}>
         <p className="leading-[normal] mb-0">~/.cache/lazymake/exports/test_20251224.json</p>
         <p className="leading-[normal] mb-0">~/.cache/lazymake/exports/test_20251224.log</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
@@ -760,112 +760,160 @@ function ExportDataCard() {
 function PowerfulFeaturesSection() {
   return (
     <div className="absolute contents left-[260px] top-[1871px]">
-      <p className="absolute font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[1871px]">Powerful Features</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[1940px]">Everything you need to master your Makefiles, built right into the terminal</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[1871px]">Powerful Features</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[1940px]">Everything you need to master your Makefiles, built right into the terminal</p>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/dependency-graphs.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link7 contents"
+        className="group/link7 absolute flex items-center gap-[12px] left-[260px] top-[2044px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[260px] not-italic text-[18px] text-nowrap text-white top-[2044px] group-hover/link7:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link7:text-[#58A6FF] transition-colors">
           Dependency Graph Visualization
         </p>
-        <LinkExternal7 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link7:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/syntax-highlighting.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link8 contents"
+        className="group/link8 absolute flex items-center gap-[12px] left-[260px] top-[2540px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[260px] not-italic text-[18px] text-nowrap text-white top-[2540px] group-hover/link8:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link8:text-[#58A6FF] transition-colors">
           Syntax Highlighting
         </p>
-        <LinkExternal />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link8:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/history-search.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link5 contents"
+        className="group/link5 absolute flex items-center gap-[12px] left-[260px] top-[3042px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[260px] not-italic text-[18px] text-nowrap text-white top-[3042px] group-hover/link5:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link5:text-[#58A6FF] transition-colors">
           {`Recent History & Smart Search`}
         </p>
-        <LinkExternal1 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link5:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/performance-tracking.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link7 contents"
+        className="group/link7 absolute flex items-center gap-[12px] left-[260px] top-[3515px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[260px] not-italic text-[18px] text-nowrap text-white top-[3515px] group-hover/link7:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link7:text-[#58A6FF] transition-colors">
           Performance Profiling
         </p>
-        <LinkExternal2 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link7:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2080px] w-[428px]">See your build structure instantly. Visualize dependency chains with execution order, critical path markers, and parallel opportunities. Press</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2152px] w-[428px]">on any target to understand what will run and when.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2080px] w-[428px]">See your build structure instantly. Visualize dependency chains with execution order, critical path markers, and parallel opportunities. Press</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2152px] w-[428px]">on any target to understand what will run and when.</p>
       <Group21 />
       <Group22 />
       <Frame5 />
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2576px] w-[428px]">Read code faster with automatic syntax highlighting. Detects the language of your recipes (Python, Go, JavaScript, Rust, etc.) and applies appropriate syntax coloring.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[2576px] w-[428px]">Read code faster with automatic syntax highlighting. Detects the language of your recipes (Python, Go, JavaScript, Rust, etc.) and applies appropriate syntax coloring.</p>
       <Group23 />
       <Group28 />
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[3079px] w-[428px]">Find targets fast. Tracks your last 5 executed targets per project, showing them at the top for instant access. Real-time search filters by name and description.</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[3551px] w-[428px]">{`Track execution times and catch performance regressions automatically. Stores the last 10 executions per target and alerts you when a target is >25% slower than average.`}</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[2080px] w-[428px]">{`Understand your build configuration. See all Makefile variables with their raw and expanded values, which targets use them, and whether they're exported to the environment.`}</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[2576px] w-[428px]">Protect against accidental disasters. Detects dangerous commands (rm -rf, database drops, force pushes, terraform destroy) and requires confirmation before execution.</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[3078px]">Work with multiple projects seamlessly. Press</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[3079px] w-[428px]">Find targets fast. Tracks your last 5 executed targets per project, showing them at the top for instant access. Real-time search filters by name and description.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[3551px] w-[428px]">{`Track execution times and catch performance regressions automatically. Stores the last 10 executions per target and alerts you when a target is >25% slower than average.`}</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[2080px] w-[428px]">{`Understand your build configuration. See all Makefile variables with their raw and expanded values, which targets use them, and whether they're exported to the environment.`}</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[2576px] w-[428px]">Protect against accidental disasters. Detects dangerous commands (rm -rf, database drops, force pushes, terraform destroy) and requires confirmation before execution.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[3078px]">Work with multiple projects seamlessly. Press</p>
       <div className="absolute left-[752px] top-[3102px] h-[24px] w-[428px]">
         <WorkspaceButton />
       </div>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[3551px] w-[428px]">Export execution results to JSON/log files for analysis, or add make commands to your shell history for easy re-running outside lazymake.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[752px] not-italic text-[#8b939e] text-[14px] top-[3551px] w-[428px]">Export execution results to JSON/log files for analysis, or add make commands to your shell history for easy re-running outside lazymake.</p>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/variable-inspector.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link3 contents"
+        className="group/link3 absolute flex items-center gap-[12px] left-[752px] top-[2044px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[752px] not-italic text-[18px] text-nowrap text-white top-[2044px] group-hover/link3:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link3:text-[#58A6FF] transition-colors">
           Variable Inspector
         </p>
-        <LinkExternal3 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link3:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/safety-features.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link4 contents"
+        className="group/link4 absolute flex items-center gap-[12px] left-[752px] top-[2540px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[752px] not-italic text-[18px] text-nowrap text-white top-[2540px] group-hover/link4:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link4:text-[#58A6FF] transition-colors">
           Dangerous Command Detection
         </p>
-        <LinkExternal4 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link4:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/workspace-management.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link6 contents"
+        className="group/link6 absolute flex items-center gap-[12px] left-[752px] top-[3042px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[752px] not-italic text-[18px] text-nowrap text-white top-[3042px] group-hover/link6:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link6:text-[#58A6FF] transition-colors">
           Workspace Management
         </p>
-        <LinkExternal5 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link6:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <a 
         href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/export-shell-integration.md" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="group/link9 contents"
+        className="group/link9 absolute flex items-center gap-[12px] left-[752px] top-[3515px]"
       >
-        <p className="absolute font-['Inter:Medium',sans-serif] font-medium leading-[24px] left-[752px] not-italic text-[18px] text-nowrap text-white top-[3515px] group-hover/link9:text-[#58A6FF] transition-colors">
+        <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[18px] text-nowrap text-white group-hover/link9:text-[#58A6FF] transition-colors">
           {`Export & Shell Integration`}
         </p>
-        <LinkExternal6 />
+        <div className="size-[18px]" data-name="link-external-01">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+            <g id="link-external-01">
+              <path d={svgPaths.p17ff2c00} id="Icon" stroke="var(--stroke-0, #8B939E)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="group-hover/link9:stroke-[#58A6FF] transition-colors" />
+            </g>
+          </svg>
+        </div>
       </a>
       <div className="absolute h-0 left-[260px] top-[2012px] w-[920px]">
         <div className="absolute inset-[-1px_0_0_0]">
@@ -940,7 +988,7 @@ function Copy() {
 
 function Frame6() {
   return (
-    <div className="absolute content-stretch flex font-['Google_Sans_Code:Regular',sans-serif] gap-[24px] items-center leading-[24px] left-[276px] not-italic text-[14px] text-nowrap top-[4200px]">
+    <div className="absolute content-stretch flex font-['Roboto_Mono',sans-serif] gap-[24px] items-center leading-[24px] left-[276px] not-italic text-[14px] text-nowrap top-[4200px]">
       <p className="relative shrink-0 text-white">Homebrew</p>
       <p className="relative shrink-0 text-[#8b939e]">Go Install</p>
       <p className="relative shrink-0 text-[#8b939e]">From Source</p>
@@ -959,7 +1007,7 @@ function InstallCodeBlock() {
       </div>
       <Copy />
       <Frame6 />
-      <div className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[276px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[4252px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[276px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[4252px]">
         <p className="mb-0">1</p>
         <p className="mb-0">2</p>
         <p className="mb-0">3</p>
@@ -969,16 +1017,16 @@ function InstallCodeBlock() {
         <p>7</p>
       </div>
       <div className="absolute font-['Roboto_Mono:Regular',sans-serif] font-normal leading-[0] left-[301px] text-[#a5d6ff] text-[0px] text-nowrap top-[4252px]">
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] mb-0 not-italic text-[14px]">
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[14px]">
           <span className="text-[#ffa657]">brew</span>
           <span>{` install rshelekhov/tap/lazymake`}</span>
         </p>
         <p className="leading-[24px] mb-0 text-[14px]">&nbsp;</p>
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] mb-0 not-italic text-[#8b949e] text-[14px]"># Run in any directory with a Makefile or in the root folder of your project</p>
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] mb-0 not-italic text-[#ffa657] text-[14px]">lazymake</p>
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[#8b949e] text-[14px]"># Run in any directory with a Makefile or in the root folder of your project</p>
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[#ffa657] text-[14px]">lazymake</p>
         <p className="leading-[24px] mb-0 text-[14px]">&nbsp;</p>
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] mb-0 not-italic text-[#8b949e] text-[14px]">{`# Or specify a different Makefile `}</p>
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] not-italic text-[14px]">
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[#8b949e] text-[14px]">{`# Or specify a different Makefile `}</p>
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] not-italic text-[14px]">
           <span className="text-[#ffa657]">lazymake</span>
           <span>{` -f path/to/Makefile`}</span>
         </p>
@@ -2667,7 +2715,7 @@ function Frame3() {
       className="group/docsButton absolute bg-[#1a1f29] content-stretch flex h-[44px] items-center justify-center left-[260px] px-[30px] py-[12px] rounded-[8px] top-[5599px] transition-colors hover:border-[#4B9AE9]"
     >
       <div aria-hidden="true" className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[8px] group-hover/docsButton:border-[#4B9AE9] transition-colors" />
-      <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover/docsButton:text-[#4B9AE9] transition-colors">Browse All Documentation →</p>
+      <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover/docsButton:text-[#4B9AE9] transition-colors">Browse All Documentation →</p>
     </a>
   );
 }
@@ -2699,7 +2747,7 @@ function Frame7() {
     >
       <div aria-hidden="true" className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[8px] group-hover/githubBtn:border-[#4B9AE9] transition-colors" />
       <GithubMark1 />
-      <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover/githubBtn:text-[#4B9AE9] transition-colors">View on GitHub</p>
+      <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover/githubBtn:text-[#4B9AE9] transition-colors">View on GitHub</p>
     </a>
   );
 }
@@ -2708,7 +2756,7 @@ function Frame12() {
   return (
     <div className="absolute bg-[#1f2430] content-stretch flex flex-col items-center justify-center left-[484px] px-[6px] py-0 rounded-[4px] top-[1631px]">
       <div aria-hidden="true" className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[4px]" />
-      <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#58a6ff] text-[14px] w-full">$(LDFLAGS)</p>
+      <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[24px] not-italic relative shrink-0 text-[#58a6ff] text-[14px] w-full">$(LDFLAGS)</p>
     </div>
   );
 }
@@ -2722,13 +2770,13 @@ function ProblemCard() {
           <path d={svgPaths.p2c3ea000} fill="var(--fill-0, #21212A)" id="Rectangle 8" stroke="var(--stroke-0, #46292F)" />
         </svg>
       </div>
-      <div className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[284px] not-italic text-[#e4ecf9] text-[14px] top-[1391px] w-[406px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[284px] not-italic text-[#e4ecf9] text-[14px] top-[1391px] w-[406px]">
         <p className="mb-0">{`Make is everywhere—19% of top GitHub repos use it—but its UX is stuck in 1976. Want to see available targets? Read the entire Makefile. Trying to understand dependencies? Good luck deciphering that DAG. New to a project? Hope someone documented their Makefile (spoiler: they didn't).`}</p>
         <p className="mb-0">&nbsp;</p>
         <p>You know the drill: Open Makefile. Scroll through 500 lines. Squint at cryptic tab characters. Wonder what</p>
       </div>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[586px] not-italic text-[#e4ecf9] text-[14px] text-nowrap top-[1631px]">actually</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[284px] not-italic text-[#e4ecf9] text-[14px] top-[1655px] w-[406px]">expands to. Run the wrong target. Break production. Apologize in Slack.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[586px] not-italic text-[#e4ecf9] text-[14px] text-nowrap top-[1631px]">actually</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[284px] not-italic text-[#e4ecf9] text-[14px] top-[1655px] w-[406px]">expands to. Run the wrong target. Break production. Apologize in Slack.</p>
       <Frame12 />
       <div className="absolute h-0 left-[261px] top-[1367px] w-[392px]">
         <div className="absolute inset-[-1px_0_0_0]">
@@ -2737,7 +2785,7 @@ function ProblemCard() {
           </svg>
         </div>
       </div>
-      <p className="absolute font-['Google_Sans_Code:Bold',sans-serif] leading-[22px] left-[276px] not-italic text-[#f85149] text-[14px] text-nowrap top-[1332px]">The Problem</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[22px] left-[276px] not-italic text-[#f85149] text-[14px] text-nowrap top-[1332px]">The Problem</p>
     </div>
   );
 }
@@ -2745,10 +2793,10 @@ function ProblemCard() {
 function Frame13() {
   return (
     <div className="content-stretch flex gap-[8px] items-start leading-[24px] relative shrink-0 text-[#3fb950] text-[14px] w-full">
-      <p className="font-['Google_Sans_Code:Regular','Noto_Sans:Regular',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
+      <p className="font-['Roboto_Mono',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
         ✓
       </p>
-      <p className="basis-0 font-['Google_Sans_Code:Regular',sans-serif] grow min-h-px min-w-px not-italic relative shrink-0">{`Browse targets like you're browsing code`}</p>
+      <p className="basis-0 font-['Roboto_Mono',sans-serif] grow min-h-px min-w-px not-italic relative shrink-0">{`Browse targets like you're browsing code`}</p>
     </div>
   );
 }
@@ -2756,10 +2804,10 @@ function Frame13() {
 function Frame9() {
   return (
     <div className="content-stretch flex gap-[8px] items-start leading-[24px] relative shrink-0 text-[#3fb950] text-[14px] w-full">
-      <p className="font-['Google_Sans_Code:Regular','Noto_Sans:Regular',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
+      <p className="font-['Roboto_Mono',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
         ✓
       </p>
-      <p className="basis-0 font-['Google_Sans_Code:Regular',sans-serif] grow min-h-px min-w-px not-italic relative shrink-0">
+      <p className="basis-0 font-['Roboto_Mono',sans-serif] grow min-h-px min-w-px not-italic relative shrink-0">
         See exactly what will execute before you
         <br aria-hidden="true" />
         run it
@@ -2771,10 +2819,10 @@ function Frame9() {
 function Frame10() {
   return (
     <div className="content-stretch flex gap-[8px] items-start leading-[24px] relative shrink-0 text-[#3fb950] text-[14px] w-full">
-      <p className="font-['Google_Sans_Code:Regular','Noto_Sans:Regular',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
+      <p className="font-['Roboto_Mono',sans-serif] relative shrink-0 text-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100, 'wght' 400" }}>
         ✓
       </p>
-      <p className="font-['Google_Sans_Code:Regular',sans-serif] not-italic relative shrink-0 w-[326px]">Zero configuration required</p>
+      <p className="font-['Roboto_Mono',sans-serif] not-italic relative shrink-0 w-[326px]">Zero configuration required</p>
     </div>
   );
 }
@@ -2798,9 +2846,9 @@ function SolutionCard() {
           <path d={svgPaths.p2c3ea000} fill="var(--fill-0, #1B242A)" id="Rectangle 8" stroke="var(--stroke-0, #213E31)" />
         </svg>
       </div>
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[24px] left-[750px] not-italic text-[#e4ecf9] text-[0px] text-[14px] top-[1391px] w-[406px]">
-        <span className="font-['Google_Sans_Code:Bold',sans-serif]">{`There's a better way. `}</span>
-        <span className="font-['Google_Sans_Code:Regular',sans-serif]">Lazymake turns your Makefile into an interactive, visual interface with dependency graphs, variable inspection, safety checks, and performance tracking.</span>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-normal leading-[24px] left-[750px] not-italic text-[#e4ecf9] text-[0px] text-[14px] top-[1391px] w-[406px]">
+        <span className="font-['Roboto_Mono',sans-serif] font-bold">{`There's a better way. `}</span>
+        <span className="font-['Roboto_Mono',sans-serif]">Lazymake turns your Makefile into an interactive, visual interface with dependency graphs, variable inspection, safety checks, and performance tracking.</span>
       </p>
       <Frame11 />
       <div className="absolute h-0 left-[726px] top-[1367px] w-[394px]">
@@ -2810,7 +2858,7 @@ function SolutionCard() {
           </svg>
         </div>
       </div>
-      <p className="absolute font-['Google_Sans_Code:Bold',sans-serif] leading-[22px] left-[742px] not-italic text-[#3fb950] text-[14px] text-nowrap top-[1332px]">The Solution</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[22px] left-[742px] not-italic text-[#3fb950] text-[14px] text-nowrap top-[1332px]">The Solution</p>
     </div>
   );
 }
@@ -2821,98 +2869,8 @@ function TerminalDemoSection() {
       <div className="absolute h-[506px] left-[260px] top-[611px] w-[919px]">
         <TerminalUI />
       </div>
-      <div className="absolute border border-[#30363c] border-solid h-[449px] left-[271px] rounded-[4px] top-[622px] w-[316px]" />
-      <div className="absolute border border-[#30363c] border-solid h-[449px] left-[593px] rounded-[4px] top-[622px] w-[575px]" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[310px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[657px] tracking-[-0.24px]">Makefile Targets</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[618px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[657px] tracking-[-0.24px]">test</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[713px] tracking-[-0.24px]">RECENT</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[825px] tracking-[-0.24px]">ALL TARGETS</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[12px] text-nowrap text-white top-[853px] tracking-[-0.24px]">build</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[12px] text-nowrap text-white top-[895px] tracking-[-0.24px]">install</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[12px] text-nowrap text-white top-[951px] tracking-[-0.24px]">install-system</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[867px] tracking-[-0.24px]">Build the application</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[909px] tracking-[-0.24px]">
-        <p className="mb-0">Install to GOPATH/bin (requires</p>
-        <p>GOPATH/bin in PATH)</p>
-      </div>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[965px] tracking-[-0.24px]">
-        <p className="mb-0">Install to /usr/local/bin</p>
-        <p>(requires sudo)</p>
-      </div>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[373px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[1091px] tracking-[-0.24px]">11 targets</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[710px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[1091px] tracking-[-0.24px]">enter: run • /: filter • g: dependency graph • ?: help • q: quit</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[457px] not-italic text-[#c99b3e] text-[12px] text-nowrap top-[1091px] tracking-[-0.24px]">1 regressed</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[618px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[713px] tracking-[-0.24px]">Recipe:</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[618px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[769px] tracking-[-0.24px]">go</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[324px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[741px] tracking-[-0.24px]">test</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[618px] not-italic text-[#58a6ff] text-[12px] text-nowrap top-[741px] tracking-[-0.24px]">go</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[639px] not-italic text-[#d3d3d3] text-[12px] text-nowrap top-[741px] tracking-[-0.24px]">test</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[674px] not-italic text-[#d3d3d3] text-[12px] text-nowrap top-[741px] tracking-[-0.24px]">./...</p>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[310px] not-italic text-[#c99b3e] text-[12px] text-nowrap top-[741px] tracking-[-0.24px]">↑</p>
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[310px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[755px] tracking-[-0.24px]">Run all tests</p>
-      <div className="absolute bg-[#58a6ff] h-[28px] left-[299px] top-[741px] w-px" />
-      <div className="absolute bg-[#c99b3e] h-[14px] left-[408px] top-[755px] w-[49px]" />
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[415px] not-italic text-[12px] text-black text-nowrap top-[755px] tracking-[-0.24px]">907ms</p>
-      <div className="absolute h-0 left-[303px] top-[791px] w-[258px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 258 1">
-            <line id="Line 22" stroke="var(--stroke-0, #30363C)" x2="258" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[618px] top-[693px] w-[525px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 525 1">
-            <line id="Line 23" stroke="var(--stroke-0, #30363C)" x2="525" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[618px] top-[833px] w-[350px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 350 1">
-            <line id="Line 24" stroke="var(--stroke-0, #30363C)" x2="350" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[8px] left-[622px] top-[996px] w-[3.088px]" data-name="Vector">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
-          <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #8B9199)" fillRule="evenodd" id="Vector" />
-        </svg>
-      </div>
-      <div className="absolute h-[8px] left-[622px] top-[800px] w-[3.088px]" data-name="Vector">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.08822 8">
-          <path clipRule="evenodd" d={svgPaths.pa864180} fill="var(--fill-0, #8B9199)" fillRule="evenodd" id="Vector" />
-        </svg>
-      </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[632px] not-italic text-[#cccac3] text-[12px] text-nowrap top-[853px] tracking-[-0.24px]">Performance Regression</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[639px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[909px] tracking-[-0.24px]">
-        <p className="mb-0">Current:</p>
-        <p className="mb-0">Average:</p>
-        <p>Change:</p>
-      </div>
-      <p className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[632px] text-[#8b939e] text-[12px] text-nowrap top-[993px] tracking-[-0.24px]">This target recently got slower – investigate recent changes</p>
-      <p className="absolute font-['Menlo:Italic',sans-serif] italic leading-[normal] left-[632px] text-[#8b939e] text-[12px] text-nowrap top-[797px] tracking-[-0.24px]">Press ‘g’ to view dependency graph</p>
-      <div className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[709px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[909px] tracking-[-0.24px]">
-        <p className="mb-0">906ms</p>
-        <p className="mb-0">720ms (10 runs)</p>
-        <p className="font-['Menlo:Bold',sans-serif] text-[#c99b3e]">+25% slower</p>
-      </div>
-      <p className="absolute font-['Menlo:Bold',sans-serif] leading-[normal] left-[618px] not-italic text-[#c99b3e] text-[12px] text-nowrap top-[853px] tracking-[-0.24px]">↑</p>
-      <div className="absolute bg-[#c99b3e] h-[14px] left-[793px] top-[853px] w-[63px]" />
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[800px] not-italic text-[12px] text-black text-nowrap top-[853px] tracking-[-0.24px]">warning</p>
-      <div className="absolute border border-[#31363b] border-solid h-[84px] left-[622px] top-[888px] w-[210px]" />
-      <div className="absolute left-[312px] size-[4px] top-[1026px]">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 4 4">
-          <circle cx="2" cy="2" fill="var(--fill-0, #8E8E8E)" id="Ellipse 1" r="2" />
-        </svg>
-      </div>
-      <div className="absolute left-[319px] size-[4px] top-[1026px]">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 4 4">
-          <circle cx="2" cy="2" fill="var(--fill-0, #8E8E8E)" id="Ellipse 1" r="2" />
-        </svg>
-      </div>
-      <div className="absolute bg-[#6ba4f8] h-[14px] left-[275px] top-[1091px] w-[84px]" />
-      <p className="absolute font-['Menlo:Regular',sans-serif] leading-[normal] left-[282px] not-italic text-[12px] text-black text-nowrap top-[1091px] tracking-[-0.24px]">./Makefile</p>
+
+      
     </div>
   );
 }
@@ -2920,31 +2878,31 @@ function TerminalDemoSection() {
 export default function Lazymake() {
   return (
     <div className="bg-[#1a1f29] relative size-full min-h-[3975px]" data-name="lazymake">
-      <p className="absolute font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.3] left-[260px] not-italic text-[56px] text-nowrap text-white top-[224px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] left-[260px] not-italic text-[56px] text-nowrap text-white top-[224px]">
         A Beautiful TUI
         <br aria-hidden="true" />
         for Your Makefiles
       </p>
       <div className="absolute bg-gradient-to-b from-[#1f2430] h-[360px] left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] to-[#1a1f29] top-[1799px] w-screen" />
-      <p className="absolute font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[1230px]">Why Lazymake?</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[1230px]">Why Lazymake?</p>
       <PowerfulFeaturesSection />
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[390px] w-[612px]">Turn your Makefile into an interactive, visual interface with dependency graphs, variable inspection, safety checks, and performance tracking. All with zero configuration.</p>
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[100px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[920px] uppercase">List of targets</p>
-      <div className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[199px] not-italic text-[#8b939e] text-[11px] text-nowrap text-right top-[726px] translate-x-[-100%] uppercase">
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[390px] w-[612px]">Turn your Makefile into an interactive, visual interface with dependency graphs, variable inspection, safety checks, and performance tracking. All with zero configuration.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[100px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[920px] uppercase">List of targets</p>
+      <div className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[199px] not-italic text-[#8b939e] text-[11px] text-nowrap text-right top-[726px] translate-x-[-100%] uppercase">
         <p className="mb-0">recent targets</p>
         <p>w/ completion time</p>
       </div>
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[889px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[1173px] uppercase">quick actions</p>
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[1240px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[913px] uppercase">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[889px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[1173px] uppercase">quick actions</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[1240px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[913px] uppercase">
         catch performance
         <br aria-hidden="true" />
         regressions
       </p>
-      <div className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[1245px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[732px] uppercase">
+      <div className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[1245px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[732px] uppercase">
         <p className="mb-0">view commands</p>
         <p>w/ syntax highlighing</p>
       </div>
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[16px] left-[1245px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[798px] uppercase">useful tips</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[16px] left-[1245px] not-italic text-[#8b939e] text-[11px] text-nowrap top-[798px] uppercase">useful tips</p>
       <LazymakeLogo />
       <Frame2 />
       <ProblemCard />

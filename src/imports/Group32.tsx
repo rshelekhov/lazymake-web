@@ -17,7 +17,7 @@ function Group13() {
     <div className="absolute contents left-[571px] top-[451px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[451px] w-[298px]" />
       <Variable />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[541px] w-[210px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[541px] w-[210px]">
         Variable
         <br aria-hidden="true" />
         Inspector
@@ -42,7 +42,7 @@ function Group7() {
   return (
     <div className="absolute contents left-[260px] top-[451px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[451px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-nowrap text-white top-[541px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-nowrap text-white top-[541px]">
         Dependency
         <br aria-hidden="true" />
         Graphs
@@ -68,7 +68,7 @@ function Group8() {
   return (
     <div className="absolute contents left-[260px] top-[627px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[627px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[717px] w-[210px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[717px] w-[210px]">
         Safety
         <br aria-hidden="true" />
         Features
@@ -94,7 +94,7 @@ function Group12() {
   return (
     <div className="absolute contents left-[882px] top-[451px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[882px] rounded-[8px] top-[451px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[541px] w-[210px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[541px] w-[210px]">
         Syntax
         <br aria-hidden="true" />
         Highlighting
@@ -120,7 +120,7 @@ function Group14() {
   return (
     <div className="absolute contents left-[571px] top-[627px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[627px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[717px] w-[210px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[717px] w-[210px]">
         History
         <br aria-hidden="true" />
         {`& Search`}
@@ -146,7 +146,7 @@ function Group9() {
   return (
     <div className="absolute contents left-[260px] top-[803px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[260px] rounded-[8px] top-[803px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[893px] w-[210px]">Performance Profiling</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[893px] w-[210px]">Performance Profiling</p>
       <Speedometer />
     </div>
   );
@@ -168,7 +168,7 @@ function Group10() {
   return (
     <div className="absolute contents left-[571px] top-[803px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[571px] rounded-[8px] top-[803px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[893px] w-[210px]">{`Export & Shell Integration`}</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[893px] w-[210px]">{`Export & Shell Integration`}</p>
       <Terminal />
     </div>
   );
@@ -190,7 +190,7 @@ function Group11() {
   return (
     <div className="absolute contents left-[882px] top-[627px]">
       <div className="absolute bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] left-[882px] rounded-[8px] top-[627px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[717px] w-[210px]">Workspace Management</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[906px] not-italic text-[18px] text-white top-[717px] w-[210px]">Workspace Management</p>
       <Container />
     </div>
   );
@@ -213,7 +213,7 @@ function Group6() {
   return (
     <div className="absolute contents left-[260px] top-[213px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[226px] left-[260px] rounded-[8px] top-[213px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[365px] w-[210px]">Self-Documenting Makefiles</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[284px] not-italic text-[18px] text-white top-[365px] w-[210px]">Self-Documenting Makefiles</p>
       <FileCode />
     </div>
   );
@@ -236,7 +236,7 @@ function Group5() {
   return (
     <div className="absolute contents left-[571px] top-[213px]">
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[226px] left-[571px] rounded-[8px] top-[213px] w-[298px]" />
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[365px] w-[210px]">Keyboard Shortcuts Reference</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] left-[595px] not-italic text-[18px] text-white top-[365px] w-[210px]">Keyboard Shortcuts Reference</p>
       <Command />
     </div>
   );
@@ -245,7 +245,7 @@ function Group5() {
 function Frame1() {
   return (
     <div className="absolute content-stretch flex flex-col items-start left-[906px] top-[365px] w-[210px]">
-      <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[18px] text-white w-full">
+      <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] not-italic relative shrink-0 text-[18px] text-white w-full">
         Configuration
         <br aria-hidden="true" />
         Guide
@@ -288,10 +288,10 @@ function Group4() {
 function Group() {
   return (
     <div className="absolute contents left-[642px] not-italic text-nowrap top-[1203px]">
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] left-[642px] text-[16px] text-white top-[1203px]">Resources</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1239px]">Github Repository</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1272px]">Documentation</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1305px]">Releases</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[24px] left-[642px] text-[16px] text-white top-[1203px]">Resources</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1239px]">Github Repository</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1272px]">Documentation</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[642px] text-[#8b939e] text-[14px] top-[1305px]">Releases</p>
     </div>
   );
 }
@@ -299,10 +299,10 @@ function Group() {
 function Group1() {
   return (
     <div className="absolute contents left-[881px] not-italic text-nowrap top-[1203px]">
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] left-[881px] text-[16px] text-white top-[1203px]">Community</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1239px]">Report Issues</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1272px]">Contributing</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1305px]">Discussions</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[24px] left-[881px] text-[16px] text-white top-[1203px]">Community</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1239px]">Report Issues</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1272px]">Contributing</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[881px] text-[#8b939e] text-[14px] top-[1305px]">Discussions</p>
     </div>
   );
 }
@@ -310,9 +310,9 @@ function Group1() {
 function Group2() {
   return (
     <div className="absolute contents left-[1087px] not-italic text-nowrap top-[1203px]">
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] left-[1087px] text-[16px] text-white top-[1203px]">Legal</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[1087px] text-[#8b939e] text-[14px] top-[1239px]">MIT License</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[1087px] text-[#8b939e] text-[14px] top-[1272px]">Author</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[24px] left-[1087px] text-[16px] text-white top-[1203px]">Legal</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[1087px] text-[#8b939e] text-[14px] top-[1239px]">MIT License</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[1087px] text-[#8b939e] text-[14px] top-[1272px]">Author</p>
     </div>
   );
 }
@@ -321,7 +321,7 @@ function Frame() {
   return (
     <div className="absolute bg-[#1a1f29] content-stretch flex h-[44px] items-center justify-center left-[260px] px-[30px] py-[12px] rounded-[8px] top-[1015px]">
       <div aria-hidden="true" className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[8px]" />
-      <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">Browse All Documentation →</p>
+      <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">Browse All Documentation →</p>
     </div>
   );
 }
@@ -341,10 +341,10 @@ export default function DocumentationSection() {
       <Group6 />
       <Group5 />
       <Group4 />
-      <p className="absolute font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[72px]">Documentation</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[141px]">Comprehensive guides and feature documentation</p>
-      <p className="absolute font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] left-[260px] not-italic text-[16px] text-nowrap text-white top-[1203px]">Lazymake</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[22px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[1239px] w-[298px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] left-[260px] not-italic text-[44px] text-nowrap text-white top-[72px]">Documentation</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[141px]">Comprehensive guides and feature documentation</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-medium leading-[24px] left-[260px] not-italic text-[16px] text-nowrap text-white top-[1203px]">Lazymake</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[22px] left-[260px] not-italic text-[#8b939e] text-[14px] top-[1239px] w-[298px]">
         A beautiful TUI for browsing
         <br aria-hidden="true" />
         and executing Makefile targets.
@@ -352,11 +352,9 @@ export default function DocumentationSection() {
       <Group />
       <Group1 />
       <Group2 />
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[1393px]">© 2025 Lazymake. Open source under the MIT License.</p>
-      <p className="absolute font-['Google_Sans_Code:Regular',sans-serif] font-['Inter:Regular',sans-serif] font-normal leading-[22px] left-[260px] not-italic text-[14px] text-white top-[1295px] w-[298px]">
+      <p className="absolute font-['Roboto_Mono',sans-serif] leading-[21px] left-[260px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[1393px]">© 2025 Lazymake. Open source under the MIT License.</p>
+      <p className="absolute font-['Roboto_Mono',sans-serif] font-normal leading-[22px] left-[260px] not-italic text-[14px] text-white top-[1295px] w-[298px]">
         <span className="text-[#8b939e]">{`Made with `}</span>
-        <span className="text-[#f43]">❤</span>
-        <span className="text-[#8b939e]">️ using Bubble Tea, Bubbles, Lipgloss, Chroma and Cobra.</span>
       </p>
       <div className="absolute h-0 left-[260px] top-[1131px] w-[800px]">
         <div className="absolute inset-[-1px_0_0_0]">

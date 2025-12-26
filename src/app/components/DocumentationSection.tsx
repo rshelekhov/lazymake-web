@@ -5,14 +5,14 @@ export default function DocumentationSection() {
       <div className="absolute inset-x-0 bg-gradient-to-b from-[#1f2430] to-[#1a1f29] h-[360px] top-0 z-0" />
 
       {/* Content container */}
-      <div className="relative px-[260px] z-10">
+      <div className="relative max-w-[1440px] mx-auto px-[260px] z-10">
         {/* Title */}
-        <h2 className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.3] mb-[12px] not-italic text-[44px] text-nowrap text-white">
+        <h2 className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] mb-[12px] not-italic text-[44px] text-nowrap text-white">
           Documentation
         </h2>
 
         {/* Description */}
-        <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] mb-[48px] not-italic text-[#8b939e] text-[14px] text-nowrap">
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-[48px] not-italic text-[#8b939e] text-[14px] text-nowrap">
           Comprehensive guides and feature documentation
         </p>
 
@@ -55,7 +55,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Self-Documenting Makefiles
               </p>
             </a>
@@ -95,7 +95,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Keyboard Shortcuts Reference
               </p>
             </a>
@@ -135,7 +135,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Configuration
                 <br />
                 Guide
@@ -171,7 +171,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white text-nowrap group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white text-nowrap group-hover/card:text-[#4B9AE9] transition-colors">
                 Dependency
                 <br />
                 Graphs
@@ -204,7 +204,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Variable
                 <br />
                 Inspector
@@ -237,7 +237,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Syntax
                 <br />
                 Highlighting
@@ -273,7 +273,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Safety
                 <br />
                 Features
@@ -306,7 +306,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 History
                 <br />& Search
               </p>
@@ -338,7 +338,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Workspace Management
               </p>
             </a>
@@ -372,7 +372,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Performance Profiling
               </p>
             </a>
@@ -403,7 +403,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Export & Shell Integration
               </p>
             </a>
@@ -421,7 +421,7 @@ export default function DocumentationSection() {
             aria-hidden="true"
             className="absolute border border-[#30363c] border-solid inset-0 pointer-events-none rounded-[8px] group-hover/browseBtn:border-[#4B9AE9] transition-colors"
           />
-          <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] text-[14px] text-center text-nowrap text-white group-hover/browseBtn:text-[#4B9AE9] transition-colors">
+          <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] text-[14px] text-center text-nowrap text-white group-hover/browseBtn:text-[#4B9AE9] transition-colors">
             Browse All Documentation →
           </p>
         </a>

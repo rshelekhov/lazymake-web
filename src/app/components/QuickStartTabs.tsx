@@ -73,7 +73,7 @@ lazymake -f path/to/Makefile`;
           </defs>
         </svg>
       </button>
-      <div className="absolute content-stretch flex font-['Google_Sans_Code:Regular',sans-serif] gap-[24px] items-center leading-[24px] left-[16px] not-italic text-[14px] text-nowrap top-[12px]">
+      <div className="absolute content-stretch flex font-['Roboto_Mono',sans-serif] gap-[24px] items-center leading-[24px] left-[16px] not-italic text-[14px] text-nowrap top-[12px]">
         <button
           onClick={() => onTabChange('homebrew')}
           className={`relative shrink-0 transition-colors text-[14px] leading-[24px] ${
@@ -99,7 +99,7 @@ lazymake -f path/to/Makefile`;
           From Source
         </button>
       </div>
-      <div className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[16px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[64px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[16px] not-italic text-[#8b939e] text-[14px] text-nowrap top-[64px]">
         <p className="mb-0">1</p>
         <p className="mb-0">2</p>
         <p className="mb-0">3</p>
@@ -108,7 +108,7 @@ lazymake -f path/to/Makefile`;
         <p className="mb-0">6</p>
         <p>7</p>
       </div>
-      <div className="absolute font-['Google_Sans_Code:Regular',sans-serif] leading-[24px] left-[41px] text-[#a5d6ff] text-[14px] text-nowrap top-[64px]">
+      <div className="absolute font-['Roboto_Mono',sans-serif] leading-[24px] left-[41px] text-[#a5d6ff] text-[14px] text-nowrap top-[64px]">
         <p className="mb-0 not-italic">
           <span className="text-[#ffa657]">brew</span>
           <span>{` install rshelekhov/tap/lazymake`}</span>

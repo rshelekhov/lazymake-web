@@ -14,15 +14,15 @@ export default function Footer() {
       <div className="grid grid-cols-[298px_1fr] gap-[84px]">
         {/* Left column - About Lazymake */}
         <div>
-          <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+          <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
             Lazymake
           </p>
-          <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[22px] not-italic text-[#8b939e] text-[14px] mb-[24px]">
+          <p className="font-['Roboto_Mono',sans-serif] leading-[22px] not-italic text-[#8b939e] text-[14px] mb-[24px]">
             A beautiful TUI for browsing
             <br />
             and executing Makefile targets.
           </p>
-          <p className="font-['Google_Sans_Code:Regular',sans-serif] font-['Inter:Regular',sans-serif] font-normal leading-[22px] not-italic text-[14px]">
+          <p className="font-['Roboto_Mono',sans-serif] font-normal leading-[22px] not-italic text-[14px]">
             <span className="text-[#8b939e]">Made with </span>
             <span className="text-[#f43]">❤</span>
             <span className="text-[#8b939e]">️ using </span>
@@ -75,10 +75,10 @@ export default function Footer() {
         </div>
 
         {/* Right columns - Links */}
-        <div className="grid grid-cols-3 gap-[48px]">
+        <div className="flex gap-[96px]">
           {/* Resources */}
           <div>
-            <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
               Resources
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -86,7 +86,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Github Repository
               </a>
@@ -94,7 +94,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/tree/main/docs" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Documentation
               </a>
@@ -102,7 +102,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/releases" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Releases
               </a>
@@ -111,7 +111,7 @@ export default function Footer() {
 
           {/* Community */}
           <div>
-            <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
               Community
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -119,7 +119,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/issues" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Report Issues
               </a>
@@ -127,7 +127,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/blob/main/CONTRIBUTING.md" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Contributing
               </a>
@@ -135,7 +135,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/discussions" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Discussions
               </a>
@@ -144,7 +144,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <p className="font-['Google_Sans_Code:Medium',sans-serif] leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
               Legal
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -152,7 +152,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov/lazymake/blob/main/LICENSE" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 MIT License
               </a>
@@ -160,7 +160,7 @@ export default function Footer() {
                 href="https://github.com/rshelekhov" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
+                className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap hover:text-[#4B9AE9] transition-colors"
               >
                 Author
               </a>
@@ -170,7 +170,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <p className="font-['Google_Sans_Code:Regular',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap mt-[66px]">
+      <p className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap mt-[66px]">
         © 2025 Lazymake. Open source under the MIT License.
       </p>
     </footer>

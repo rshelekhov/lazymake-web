@@ -24,7 +24,7 @@ export default function ViewOnGithub() {
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[10px] items-center justify-center px-[24px] py-[12px] relative size-full">
           <GithubMark />
-          <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover:text-[#4B9AE9] transition-colors">View on GitHub</p>
+          <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white group-hover:text-[#4B9AE9] transition-colors">View on GitHub</p>
         </div>
       </div>
     </div>

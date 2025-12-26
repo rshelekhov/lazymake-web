@@ -14,7 +14,7 @@ export default function GetStarted() {
     >
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex items-center justify-center px-[24px] py-[12px] relative size-full">
-          <p className="font-['Google_Sans_Code:SemiBold',sans-serif] leading-[1.4] not-italic relative shrink-0 text-[#0a0a0a] group-hover:text-white text-[14px] text-center text-nowrap transition-colors">Get Started</p>
+          <p className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.4] not-italic relative shrink-0 text-[#0a0a0a] group-hover:text-white text-[14px] text-center text-nowrap transition-colors">Get Started</p>
         </div>
       </div>
     </button>
