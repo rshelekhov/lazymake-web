@@ -8,14 +8,14 @@ export default function QuickStartSection() {
       <div className="absolute inset-x-0 bg-gradient-to-b from-[#1f2430] to-[#1a1f29] h-[360px] top-0 z-0" />
       
       {/* Content container */}
-      <div className="relative max-w-[1440px] mx-auto px-[260px] z-10">
+      <div className="relative max-w-[1440px] mx-auto px-6 md:px-[260px] z-10">
         {/* Title */}
-        <h2 className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] mb-[12px] not-italic text-[44px] text-nowrap text-white">
+        <h2 className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] mb-3 md:mb-[12px] not-italic text-[32px] md:text-[44px] text-white">
           Quick Start
         </h2>
-        
+
         {/* Description */}
-        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-[48px] not-italic text-[#8b939e] text-[14px] text-nowrap">
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-8 md:mb-[48px] not-italic text-[#8b939e] text-[14px]">
           Get up and running in seconds. No configuration needed.
         </p>
         

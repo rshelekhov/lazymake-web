@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="relative pt-[72px] pb-[48px] px-[260px]">
+    <footer className="relative pt-12 md:pt-[72px] pb-[48px] px-6 md:px-[260px]">
       {/* Horizontal line */}
-      <div className="relative h-0 w-[920px] mb-[72px]">
+      <div className="relative h-0 w-full md:w-[920px] mb-8 md:mb-[72px]">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 920 1">
             <line stroke="#30363C" x2="920" y1="0.5" y2="0.5" />
@@ -11,13 +11,13 @@ export default function Footer() {
       </div>
 
       {/* Main footer content */}
-      <div className="grid grid-cols-[298px_1fr] gap-[84px]">
+      <div className="grid grid-cols-1 md:grid-cols-[298px_1fr] gap-8 md:gap-[84px]">
         {/* Left column - About Lazymake */}
-        <div>
-          <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+        <div className="mb-8 md:mb-0">
+          <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-white mb-3 md:mb-[12px]">
             Lazymake
           </p>
-          <p className="font-['Roboto_Mono',sans-serif] leading-[22px] not-italic text-[#8b939e] text-[14px] mb-[24px]">
+          <p className="font-['Roboto_Mono',sans-serif] leading-[22px] not-italic text-[#8b939e] text-[14px] mb-6 md:mb-[24px]">
             A beautiful TUI for browsing
             <br />
             and executing Makefile targets.
@@ -75,10 +75,10 @@ export default function Footer() {
         </div>
 
         {/* Right columns - Links */}
-        <div className="flex gap-[96px]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-[96px]">
           {/* Resources */}
           <div>
-            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-white mb-3 md:mb-[12px]">
               Resources
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -111,7 +111,7 @@ export default function Footer() {
 
           {/* Community */}
           <div>
-            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-white mb-3 md:mb-[12px]">
               Community
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -144,7 +144,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-nowrap text-white mb-[12px]">
+            <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[24px] not-italic text-[16px] text-white mb-3 md:mb-[12px]">
               Legal
             </p>
             <div className="flex flex-col gap-[12px]">
@@ -170,7 +170,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <p className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] text-nowrap mt-[66px]">
+      <p className="font-['Roboto_Mono',sans-serif] leading-[21px] not-italic text-[#8b939e] text-[14px] mt-12 md:mt-[66px]">
         © 2025 Lazymake. Open source under the MIT License.
       </p>
     </footer>
