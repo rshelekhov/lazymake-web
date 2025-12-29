@@ -5,29 +5,29 @@ export default function DocumentationSection() {
       <div className="absolute inset-x-0 bg-gradient-to-b from-[#1f2430] to-[#1a1f29] h-[360px] top-0 z-0" />
 
       {/* Content container */}
-      <div className="relative max-w-[1440px] mx-auto px-[260px] z-10">
+      <div className="relative max-w-[1440px] mx-auto px-6 md:px-[260px] z-10">
         {/* Title */}
-        <h2 className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] mb-[12px] not-italic text-[44px] text-nowrap text-white">
+        <h2 className="font-['Roboto_Mono',sans-serif] font-semibold leading-[1.3] mb-3 md:mb-[12px] not-italic text-[32px] md:text-[44px] text-white">
           Documentation
         </h2>
 
         {/* Description */}
-        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-[48px] not-italic text-[#8b939e] text-[14px] text-nowrap">
+        <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-8 md:mb-[48px] not-italic text-[#8b939e] text-[14px]">
           Comprehensive guides and feature documentation
         </p>
 
         {/* Cards Grid */}
-        <div className="space-y-[12px]">
+        <div className="space-y-3 md:space-y-[12px]">
           {/* Row 1 - Top featured cards (3 cards, taller) */}
-          <div className="flex gap-[13px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[13px]">
             {/* Self-Documenting Makefiles */}
             <a
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/guides/self-documenting-makefiles.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[226px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[200px] md:h-[226px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[56px] mb-[68px]">
+              <div className="size-[48px] md:size-[56px] mb-12 md:mb-[68px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -55,7 +55,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[16px] md:text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Self-Documenting Makefiles
               </p>
             </a>
@@ -65,9 +65,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/guides/keyboard-shortcuts.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[226px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[200px] md:h-[226px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[56px] mb-[68px]">
+              <div className="size-[48px] md:size-[56px] mb-12 md:mb-[68px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -95,7 +95,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[16px] md:text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Keyboard Shortcuts Reference
               </p>
             </a>
@@ -105,9 +105,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/guides/configuration.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[226px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1f2430] border border-[#30363c] border-solid h-[200px] md:h-[226px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[56px] mb-[68px]">
+              <div className="size-[48px] md:size-[56px] mb-12 md:mb-[68px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -135,7 +135,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[16px] md:text-[18px] text-white w-[210px] group-hover/card:text-[#4B9AE9] transition-colors">
                 Configuration
                 <br />
                 Guide
@@ -144,15 +144,15 @@ export default function DocumentationSection() {
           </div>
 
           {/* Row 2 - Feature cards (3 cards) */}
-          <div className="flex gap-[13px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[13px]">
             {/* Dependency Graphs */}
             <a
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/dependency-graphs.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -171,7 +171,7 @@ export default function DocumentationSection() {
                   </g>
                 </svg>
               </div>
-              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[18px] text-white text-nowrap group-hover/card:text-[#4B9AE9] transition-colors">
+              <p className="font-['Roboto_Mono',sans-serif] font-medium leading-[1.4] text-[16px] md:text-[18px] text-white group-hover/card:text-[#4B9AE9] transition-colors">
                 Dependency
                 <br />
                 Graphs
@@ -183,9 +183,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/variable-inspector.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -216,9 +216,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/syntax-highlighting.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -246,15 +246,15 @@ export default function DocumentationSection() {
           </div>
 
           {/* Row 3 - Feature cards (3 cards) */}
-          <div className="flex gap-[13px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[13px]">
             {/* Safety Features */}
             <a
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/safety-features.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -285,9 +285,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/history-search.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -317,9 +317,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/workspace-management.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -345,15 +345,15 @@ export default function DocumentationSection() {
           </div>
 
           {/* Row 4 - Feature cards (2 cards) */}
-          <div className="flex gap-[13px]">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-[13px]">
             {/* Performance Profiling */}
             <a
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/performance-tracking.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -382,9 +382,9 @@ export default function DocumentationSection() {
               href="https://github.com/rshelekhov/lazymake/blob/main/docs/features/export-shell-integration.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[164px] rounded-[8px] w-[298px] shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
+              className="group/card relative bg-[#1a1f29] border border-[#30363c] border-solid h-[180px] md:h-[164px] rounded-[8px] w-full md:w-[298px] md:shrink-0 hover:border-[#4B9AE9] transition-colors p-[24px]"
             >
-              <div className="size-[24px] mb-[42px]">
+              <div className="size-[24px] mb-10 md:mb-[42px]">
                 <svg
                   className="block size-full"
                   fill="none"
@@ -415,7 +415,7 @@ export default function DocumentationSection() {
           href="https://github.com/rshelekhov/lazymake/tree/main/docs"
           target="_blank"
           rel="noopener noreferrer"
-          className="group/browseBtn mt-[68px] inline-flex bg-[#1a1f29] h-[44px] items-center justify-center px-[30px] py-[12px] rounded-[8px] relative"
+          className="group/browseBtn mt-12 md:mt-[68px] inline-flex bg-[#1a1f29] h-[44px] items-center justify-center px-[30px] py-[12px] rounded-[8px] relative"
         >
           <div
             aria-hidden="true"
