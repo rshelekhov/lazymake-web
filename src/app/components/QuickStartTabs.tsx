@@ -9,7 +9,7 @@ function HomebrewTab({ activeTab, onTabChange }: { activeTab: string; onTabChang
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    const text = `brew install rshelekhov/tap/lazymake
+    const text = `brew install lazymake
 
 # Run in any directory with a Makefile or in the root folder of your project
 lazymake
