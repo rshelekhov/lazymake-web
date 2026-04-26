@@ -574,7 +574,7 @@ function Group28() {
       <div className="absolute bg-[#1f2430] border border-[#30363c] border-solid h-[234px] left-[752px] rounded-[8px] top-[2704px] w-[372px]" />
       <p className="absolute font-['Roboto_Mono',sans-serif] font-bold leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2794px] tracking-[-0.24px]">Recipe:</p>
       <p className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[784px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2822px] tracking-[-0.24px]">
-        <span className="text-[#c7c5be]">psql -c</span> <span className="text-[#ce9178]">‘DROP DATABASE production;”</span>
+        <span className="text-[#c7c5be]">psql -c</span> <span className="text-[#ce9178]">‘DROP DATABASE production;’</span>
       </p>
       <div className="absolute font-['Roboto_Mono',sans-serif] leading-[normal] left-[797px] not-italic text-[#8b939e] text-[12px] text-nowrap top-[2850px] tracking-[-0.24px]">
         <p className="mb-0">
@@ -1512,7 +1512,7 @@ function Group28Mobile() {
           Recipe:
         </p>
         <p className="font-['Roboto_Mono',sans-serif] text-[#8b939e] text-[12px] mb-3 tracking-[-0.24px]">
-          <span className="text-[#c7c5be]">psql -c</span> <span className="text-[#ce9178]">'DROP DATABASE production;"</span>
+          <span className="text-[#c7c5be]">psql -c</span> <span className="text-[#ce9178]">'DROP DATABASE production;'</span>
         </p>
         <div className="flex items-start gap-2 bg-[#1a1f29] border border-[#30363c] rounded p-2 mb-3">
           <div className="size-[7px] shrink-0 mt-1">
