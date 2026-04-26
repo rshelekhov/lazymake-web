@@ -50,7 +50,7 @@ export default function HomebrewTabStatic() {
       <div className="absolute font-['Roboto_Mono',sans-serif] font-normal leading-[0] left-[41px] text-[#a5d6ff] text-[0px] text-nowrap top-[64px]">
         <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[14px]">
           <span className="text-[#ffa657]">brew</span>
-          <span>{` install rshelekhov/tap/lazymake`}</span>
+          <span>{` install lazymake`}</span>
         </p>
         <p className="leading-[24px] mb-0 text-[14px]">&nbsp;</p>
         <p className="font-['Roboto_Mono',sans-serif] leading-[24px] mb-0 not-italic text-[#8b949e] text-[14px]"># Run in any directory with a Makefile or in the root folder of your project</p>
